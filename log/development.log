@@ -1,0 +1,162 @@
+Started GET "/" for ::1 at 2020-09-27 06:01:29 +0530
+  [1m[35m (8.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 34.8ms | Allocations: 372)
+Completed 200 OK in 92ms (Views: 59.0ms | ActiveRecord: 0.0ms | Allocations: 2079)
+
+
+Started GET "/" for ::1 at 2020-09-27 06:03:46 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by TranslationsController#index as HTML
+Completed 500 Internal Server Error in 219ms (ActiveRecord: 0.0ms | Allocations: 1809)
+
+
+  
+Excon::Error::Certificate (SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate) (OpenSSL::SSL::SSLError) Unable to verify certificate. This may be an issue with the remote host or with Excon. Excon has certificates bundled, but these can be customized:
+
+            `Excon.defaults[:ssl_ca_path] = path_to_certs`
+            `ENV['SSL_CERT_DIR'] = path_to_certs`
+            `Excon.defaults[:ssl_ca_file] = path_to_file`
+            `ENV['SSL_CERT_FILE'] = path_to_file`
+            `Excon.defaults[:ssl_verify_callback] = callback`
+                (see OpenSSL::SSL::SSLContext#verify_callback)
+or:
+            `Excon.defaults[:ssl_verify_peer] = false` (less secure).
+):
+  
+app/controllers/translations_controller.rb:26:in `api_request'
+app/controllers/translations_controller.rb:35:in `fetch_languages'
+app/controllers/translations_controller.rb:13:in `set_defaults'
+Started GET "/" for ::1 at 2020-09-27 06:04:26 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by TranslationsController#index as HTML
+Completed 500 Internal Server Error in 128ms (ActiveRecord: 0.0ms | Allocations: 1805)
+
+
+  
+Excon::Error::Certificate (SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate) (OpenSSL::SSL::SSLError) Unable to verify certificate. This may be an issue with the remote host or with Excon. Excon has certificates bundled, but these can be customized:
+
+            `Excon.defaults[:ssl_ca_path] = path_to_certs`
+            `ENV['SSL_CERT_DIR'] = path_to_certs`
+            `Excon.defaults[:ssl_ca_file] = path_to_file`
+            `ENV['SSL_CERT_FILE'] = path_to_file`
+            `Excon.defaults[:ssl_verify_callback] = callback`
+                (see OpenSSL::SSL::SSLContext#verify_callback)
+or:
+            `Excon.defaults[:ssl_verify_peer] = false` (less secure).
+):
+  
+app/controllers/translations_controller.rb:46:in `api_request'
+app/controllers/translations_controller.rb:55:in `fetch_languages'
+app/controllers/translations_controller.rb:33:in `set_defaults'
+Started GET "/" for ::1 at 2020-09-27 06:06:40 +0530
+  [1m[35m (5.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by TranslationsController#index as HTML
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.0ms | Allocations: 1851)
+
+
+  
+Excon::Error::Certificate (SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate) (OpenSSL::SSL::SSLError) Unable to verify certificate. This may be an issue with the remote host or with Excon. Excon has certificates bundled, but these can be customized:
+
+            `Excon.defaults[:ssl_ca_path] = path_to_certs`
+            `ENV['SSL_CERT_DIR'] = path_to_certs`
+            `Excon.defaults[:ssl_ca_file] = path_to_file`
+            `ENV['SSL_CERT_FILE'] = path_to_file`
+            `Excon.defaults[:ssl_verify_callback] = callback`
+                (see OpenSSL::SSL::SSLContext#verify_callback)
+or:
+            `Excon.defaults[:ssl_verify_peer] = false` (less secure).
+):
+  
+app/controllers/translations_controller.rb:46:in `api_request'
+app/controllers/translations_controller.rb:55:in `fetch_languages'
+app/controllers/translations_controller.rb:33:in `set_defaults'
+Started GET "/" for ::1 at 2020-09-27 06:08:27 +0530
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by TranslationsController#index as HTML
+  Rendering translations/index.html.erb within layouts/application
+  Rendered translations/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 4548)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/Ashvith Shetty/Documents/Coursera/Projects/Rails/Pending/translator/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.2
+Time: 1864ms
+Built at: 09/27/2020 6:08:35 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 7786ms (Views: 6362.4ms | ActiveRecord: 0.0ms | Allocations: 41526)
+
+
+Started POST "/translations/translate" for ::1 at 2020-09-27 06:08:42 +0530
+Processing by TranslationsController#translate as HTML
+  Parameters: {"authenticity_token"=>"3zL+VOA16ZkVfLfuF5K3TAMiJOKltp03gGcMGM2HkSWv9CgitUET4KCVUvFCWf5OCyJvQC9Y+MdbsnmWMdzXCQ==", "source"=>"hello", "source_language"=>"", "translation"=>"", "destination_language"=>"ES"}
+[31mUnpermitted parameters: :authenticity_token, :translation[0m
+[31mUnpermitted parameters: :authenticity_token, :translation[0m
+[31mUnpermitted parameters: :authenticity_token, :translation[0m
+  Rendering translations/index.html.erb within layouts/application
+  Rendered translations/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 4054)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2753ms (Views: 66.1ms | ActiveRecord: 0.0ms | Allocations: 26003)
+
+
+Started GET "/translations/translate" for ::1 at 2020-09-27 06:09:43 +0530
+Processing by TranslationsController#translate as HTML
+Completed 500 Internal Server Error in 1640ms (ActiveRecord: 0.0ms | Allocations: 10024)
+
+
+  
+NoMethodError (undefined method `upcase' for nil:NilClass
+Did you mean?  case):
+  
+app/controllers/translations_controller.rb:14:in `translate'
+Started GET "/" for ::1 at 2020-09-27 06:09:49 +0530
+Processing by TranslationsController#index as HTML
+  Rendering translations/index.html.erb within layouts/application
+  Rendered translations/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 4048)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1639ms (Views: 52.2ms | ActiveRecord: 0.0ms | Allocations: 17763)
+
+
+Started POST "/translations/translate" for ::1 at 2020-09-27 06:10:08 +0530
+Processing by TranslationsController#translate as HTML
+  Parameters: {"authenticity_token"=>"8z4WzkzSmRxuhliPGFnUWr6C81OvNL8VwxPsJdQyGUGD+MC4GaZjZdtvvZBNkp1YtoK48SXa2uUYxpmrKGlfbQ==", "source"=>"hello", "source_language"=>"", "translation"=>"", "destination_language"=>"ES"}
+[31mUnpermitted parameters: :authenticity_token, :translation[0m
+[31mUnpermitted parameters: :authenticity_token, :translation[0m
+[31mUnpermitted parameters: :authenticity_token, :translation[0m
+  Rendering translations/index.html.erb within layouts/application
+  Rendered translations/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 4048)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2854ms (Views: 53.7ms | ActiveRecord: 0.0ms | Allocations: 25968)
+
+
+Started GET "/" for ::1 at 2020-09-27 10:31:02 +0530
+  [1m[35m (8.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by TranslationsController#index as HTML
+  Rendering translations/index.html.erb within layouts/application
+  Rendered translations/index.html.erb within layouts/application (Duration: 35.2ms | Allocations: 4548)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2008ms (Views: 240.6ms | ActiveRecord: 0.0ms | Allocations: 24862)
+
+
+Started POST "/translations/translate" for ::1 at 2020-09-27 10:31:29 +0530
+Processing by TranslationsController#translate as HTML
+  Parameters: {"authenticity_token"=>"85Qmc/BF49JaX6QbyVZQNwrcDrLiXKXBcbKVcOOsIF2l13zcROI3GhaAvncwn3NwLoUQMvfd2bJ53PJanCuo+w==", "source"=>"how are you doing?", "source_language"=>"", "translation"=>"", "destination_language"=>"HI"}
+[31mUnpermitted parameters: :authenticity_token, :translation[0m
+[31mUnpermitted parameters: :authenticity_token, :translation[0m
+[31mUnpermitted parameters: :authenticity_token, :translation[0m
+  Rendering translations/index.html.erb within layouts/application
+  Rendered translations/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 4057)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2967ms (Views: 49.9ms | ActiveRecord: 0.0ms | Allocations: 26550)
+
+
