@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby 2.7.1 is necessary for this project
+* Install Rails through the gem interface
+* Just to confirm your set-up, try "ruby -v" and "rails -v".
+* If you find any discrepency, stackoverflows can help you a lot, or you can make an Open Issue
+* CD into the project, and type in "rails s via console
